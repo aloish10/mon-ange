@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="Un petit monde secret, préparé avec amour.">
+  <title>Pour mon ange ♡ </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <section id="gate" class="gate screen">
+      <div class="gate-card">
+        <div class="tiny-heart">♡</div>
+        <p class="eyebrow">UN PETIT SECRET POUR TOI</p>
+        <h1>Bonjour, mon ange</h1>
+        <p class="intro">J’ai préparé quelque chose rien que pour toi.<br>Entre notre petit code pour le découvrir…</p>
+        <form id="code-form">
+          <label class="sr-only" for="secret-code">Code secret</label>
+          <input id="secret-code" type="password" inputmode="numeric" autocomplete="off"
+                 maxlength="6" placeholder="••••••" aria-describedby="code-error" required>
+          <button class="button" type="submit">Ouvrir ma surprise <span>♡</span></button>
+          <p id="code-error" class="error" role="alert" aria-live="polite"></p>
+        </form>
+        <p class="small-note">Un petit endroit rien qu’à nous ✨</p>
+      </div>
+    </section>
+
+    <section id="love-site" class="hidden">
+      <header class="hero">
+        <nav class="topbar">
+          <a class="brand" href="#top">pour mon ange <span>♡</span></a>
+          <button id="music-toggle" class="music-button" type="button" aria-pressed="false">♫ Lancer la musique</button>
+        </nav>
+        <div id="top" class="hero-content">
+          <p class="eyebrow">DEPUIS LE 11 OCTOBRE 2026</p>
+          <h1>Toi, moi,<br><em>et plein de souvenirs.</em></h1>
+          <p class="hero-copy">J’avais envie de te créer un petit endroit pour te rappeler à quel point tu comptes pour moi.</p>
+          <a class="button button-light" href="#letter">Découvrir mon message ↓</a>
+          <div class="date-pill"><span>♡</span> Depuis le 11.10.26</div>
+        </div>
+        <div class="hero-flower flower-one" aria-hidden="true">✿</div>
+        <div class="hero-flower flower-two" aria-hidden="true">✧</div>
+      </header>
+
+      <section id="letter" class="section letter-section">
+        <div class="section-heading">
+          <p class="eyebrow">QUELQUES MOTS POUR TOI</p>
+          <h2>Une petite lettre <span>💌</span></h2>
+          <p>À lire quand tu as besoin d’un sourire.</p>
+        </div>
+        <article class="letter-card">
+          <div class="letter-top">Pour mon ange, ♡ </div>
+          <p>Mon ange,</p>
+          <p>Je ne sais pas toujours comment trouver les bons mots pour te dire ce que je ressens, alors j’ai voulu créer cette petite surprise pour toi.</p>
+          <p>Depuis le 11 octobre 2026, il y a une nouvelle date qui compte énormément pour moi. Je suis tellment heureux de partager cette histoire avec toi, de découvrir tous les petits moments qu’on va vivre et de construire nos souvenirs, un par un.</p>
+          <p>J’aime ta façon d’être, les moments où tu me fais sourire et cette petite place que tu as prise dans ma vie. Je ne te promets pas que tout sera toujours parfait, mais je veux qu’on puisse rire ensemble, se parler sincèrement et profiter de chaque instant.</p>
+          <p>Merci d’être toi. J’espère que cette page te fera sourire autant que toi, tu arrives à me faire sourire.</p>
+          <p class="signature">Je t’embrasse fort,<br><span>ton amoureux ♡</span></p>
+          <div class="letter-stamp" aria-hidden="true">♡</div>
+        </article>
+      </section>
+
+      <section class="section memories-section">
+        <div class="section-heading">
+          <p class="eyebrow">NOS PETITS TRÉSORS</p>
+          <h2>Des souvenirs à nous <span>📸</span></h2>
+        </div>
+        <div class="photo-grid">
+          <label class="photo-card photo-one">
+            <input type="file" accept="image/*" class="photo-input" data-target="photo-preview-1">
+            <img id="photo-preview-1" src="assets/photo-1.JPEG" alt="Emplacement pour votre première photo">
+            <span class="photo-caption">TOIIIII ♡ </span>
+          </label>
+          <label class="photo-card photo-two">
+            <input type="file" accept="image/*" class="photo-input" data-target="photo-preview-2">
+            <img id="photo-preview-2" src="assets/photo-3.JPEG" alt="Emplacement pour votre deuxième photo">
+            <span class="photo-caption">Nous deux ✨</span>
+          </label>
+          <label class="photo-card photo-three">
+            <input type="file" accept="image/*" class="photo-input" data-target="photo-preview-3">
+            <img id="photo-preview-3" src="assets/photo-2.JPEG" alt="Emplacement pour votre troisième photo">
+            <span class="photo-caption">MOIIIIII</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="section reasons-section">
+        <div class="section-heading">
+          <p class="eyebrow">ET CE N’EST PAS TOUT</p>
+          <h2>Pourquoi je t’aime <span>🌷</span></h2>
+          <p>Quelques raisons parmi beaucoup d’autres.</p>
+        </div>
+        <div class="reasons-grid">
+          <article class="reason-card"><span class="reason-icon">☀</span><h3>Ton sourire</h3><p>Parce qu’il peut rendre une journée toute simple beaucoup plus belle.</p></article>
+          <article class="reason-card"><span class="reason-icon">🫶</span><h3>Ta façon d’être</h3><p>Parce que je veux apprendre à connaître toutes les petites choses qui font que tu es toi.</p></article>
+          <article class="reason-card"><span class="reason-icon">✨</span><h3>Nos moments</h3><p>Parce que même les instants les plus simples deviennent spéciaux quand on les partage.</p></article>
+          <article class="reason-card"><span class="reason-icon">💗</span><h3>Ce que l’on construit</h3><p>Parce que notre histoire commence et qu’il y a encore tant de beaux souvenirs à créer.</p></article>
+        </div>
+        <div class="surprise-box">
+          <p class="eyebrow">UNE DERNIÈRE PETITE CHOSE</p>
+          <h3>Tu veux un autre mot doux ?</h3>
+          <p id="sweet-message" aria-live="polite">Appuie juste en dessous… ♡</p>
+          <button id="sweet-button" class="button" type="button">Un mot doux pour moi 💌</button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-heart">♡</div>
+        <p>Fait avec amour, spécialement pour toi.</p>
+        <p class="footer-date">11 · 10 · 2026 — le début de notre histoire</p>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Ajoute ton propre fichier musical sous le nom assets/musique.mp3.
+       Le navigateur attend un clic avant de lancer l'audio. -->
+  <audio id="background-music" loop preload="none">
+    <source src="assets/musique.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
